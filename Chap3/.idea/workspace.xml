@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3f9f29-a915-4d03-aba2-70da5c2a2a62" name="Changes" comment="Revised the name of Chapter2's directory&#10;Renamed project and respective directory from &quot;chap3&quot; to &quot;Chap3&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ea3f9f29-a915-4d03-aba2-70da5c2a2a62" name="Changes" comment="Chapter 3 completed. Wiring is interesting." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +89,7 @@
       <workItem from="1713593817733" duration="48000" />
       <workItem from="1713594783761" duration="110000" />
       <workItem from="1713599378089" duration="121000" />
-      <workItem from="1713714317036" duration="6180000" />
+      <workItem from="1713714317036" duration="6861000" />
     </task>
     <task id="LOCAL-00001" summary="Test 2. This project will likely be deleted or revised at a future date">
       <created>1713593846074</created>
@@ -112,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713599478589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 3 completed. Wiring is interesting.">
+      <created>1713721691319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713721691319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test 2. This project will likely be deleted or revised at a future date" />
     <MESSAGE value="Revised the name of Chapter2's directory&#10;Renamed project and respective directory from &quot;chap3&quot; to &quot;Chap3&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised the name of Chapter2's directory&#10;Renamed project and respective directory from &quot;chap3&quot; to &quot;Chap3&quot;." />
+    <MESSAGE value="Chapter 3 completed. Wiring is interesting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 completed. Wiring is interesting." />
   </component>
 </project>
