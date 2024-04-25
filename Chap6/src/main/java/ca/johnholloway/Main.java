@@ -28,5 +28,6 @@ public class Main {
         service.deleteComment(comment);
 
         //logger.info(value);
+
     }
 }
