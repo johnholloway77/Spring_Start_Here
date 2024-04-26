@@ -1,0 +1,17 @@
+body {
+    background-color: #c5e1a5; /* light green-blue background */
+    color: #333; /* default text color */
+    font-family: Arial, sans-serif; /* default font */
+}
+
+h1 {
+    color: #ff5733; /* contrasting color for h1 headers */
+}
+
+h2 {
+    color: #3366ff; /* complementary color for h2 headers */
+}
+
+p {
+    color: darkslateblue;
+}
