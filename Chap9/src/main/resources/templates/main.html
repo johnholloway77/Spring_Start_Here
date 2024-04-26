@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+  <h1>Welcome <span th:text="${username}"></span>!</h1>
+  <br/>
+  <p>There have been <span th:text="${loginCount}">#</span> login attempts by all users.</p>
+   <br />
+    <a href="/main?logout">Log out</a>
+</body>
+</html>
