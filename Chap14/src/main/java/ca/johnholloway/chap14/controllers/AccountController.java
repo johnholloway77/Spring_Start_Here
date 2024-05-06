@@ -39,6 +39,10 @@ public class AccountController {
         }
     }
 
+    @GetMapping("/john")
+    public Account callJohn(){
+        return  transferService.callJohn();
+    }
 
 }
 

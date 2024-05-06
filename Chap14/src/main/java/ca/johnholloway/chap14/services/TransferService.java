@@ -53,7 +53,26 @@ public class TransferService {
 
         logger.info("String name = " + name);
 
+        /*
+        Old method:
         return accountRepository.findAccountsByName(name);
+
+        Doesn't work as it expects a parameter for the exact name, eg: "John Doe"
+        In order for it to work we have to use the exact name as a parameter, not just first name
+        Requires "%20" for the space between first and last name
+
+        eg:
+        curl http://localhost:8080/accounts?name=John%20Doe
+
+         */
+
+        //return accountRepository.findAccountsByName(name);
+        return accountRepository.findAccountsByNameContainingIgnoreCase(name);
+    }
+
+    public Account callJohn(){
+        logger.info("running callJohn()");
+        return accountRepository.callJohn();
     }
 
 

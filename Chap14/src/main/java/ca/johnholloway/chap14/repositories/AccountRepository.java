@@ -21,13 +21,19 @@ public interface AccountRepository extends CrudRepository<Account, Long> {
 
 
     //We can use the @Query annotation to provide the required SQL if Spring Data cannot infer it from the method name alone
+    //Note: this method requires the exact name to return a list of accounts. Eg will return for a parameter of "John Doe" but not "John". Not as useful for search
     @Query ("SELECT * FROM account WHERE name = :name")
     List<Account> findAccountsByName(String name);
+
+
+    List<Account> findAccountsByNameContainingIgnoreCase(String name);
 
     //if you are using the SQL commands UPDATE, INSERT, or DELETE it is best to use the @Modifying attribute with @Query
     @Modifying
     @Query("UPDATE account SET amount = :amount WHERE id = :id")
     void changeAmount(long id, BigDecimal amount);
 
+    @Query("Select * FROM account where name = 'John Doe'")
+    Account callJohn();
 
 }
